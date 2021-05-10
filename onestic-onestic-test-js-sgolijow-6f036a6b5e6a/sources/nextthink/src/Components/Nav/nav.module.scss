@@ -1,0 +1,31 @@
+.img {
+    height:10%;
+    width:15%;
+    position:absolute;
+    top:-25px;
+    left:5px;
+}
+
+.img2 {
+    height:5%;
+    width:5%;
+    position: absolute;
+    right:130px;
+}
+
+.img3 {
+    height:5%;
+    width:5%;
+    position: absolute;
+    right:20px;
+}
+
+.div {
+    display:flex;
+    justify-content: space-between;
+    background-color: grey;
+    border:'solid';
+    border-color: blue;
+    border-width: 1rem;
+}
+

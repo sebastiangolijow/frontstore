@@ -1,0 +1,45 @@
+.tag {
+    font-family: roboto;
+
+}
+
+.img {
+    height:50%;
+    width:65%;
+}
+
+.container {
+    height:95%;  
+    width:65%;
+    margin:15px;
+    padding:5px;
+    outline:none;
+    background-color: grey;
+}
+
+
+.container:hover {
+    animation: unset;
+     margin-top: 18vh;
+    transform: perspective(100px) rotateX(0deg) rotateY(10deg) rotateZ(0deg);
+    transition:  1s;
+    background-color: grey;
+}
+
+.div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:80%
+}
+
+.button {
+    width:40%;
+    height:15%;
+    border-radius: 5px;
+}
+
+.button2 {
+    width:10%;
+    height:10%;
+    border-radius: 5px;
+}
